@@ -1,0 +1,14 @@
+{{- if eq .Values.environment "development" -}}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-discovery-hyper-service
+spec:
+  selector:
+    app.kubernetes.io/name: {{ .Release.Name }}-discovery-hyper
+  ports:
+    - name: {{ .Release.Name }}-d-h-s-p
+      port: 80
+      targetPort: {{ .Release.Name }}-d-h-c-p
+      protocol: TCP
+{{- end }}

@@ -1,0 +1,54 @@
+# environment: development | production, default: development
+# when environment is development, internal components will be exposed, see more https://hyper.mathematikoi.co/documentation
+environment: development
+
+# host is the domain name of your cluster, default: hyper.mathematikoi.co
+host: hyper.mathematikoi.co
+
+# application.hyper configuration
+application:
+  port: 1337
+
+# interface.hyper configuration
+interface:
+  port: 1338
+
+# discovery.hyper configuration
+discovery:
+  port: 1339
+
+# identity.hyper configuration
+identity:
+  hostname: identity.hyper.mathematikoi.co
+  port: 1340
+  password: password
+
+# authorization.hyper configuration
+authorization:
+  port: 1341
+
+# intelligence.hyper configuration
+intelligence:
+  port: 1342
+
+# automation.hyper configuration
+automation:
+  port: 1343
+
+# internationalization.hyper configuration
+internationalization:
+  port: 1344
+
+services:
+  - name: governance.service.hyper
+    image: nginx
+    port: 1345
+  - name: attributes.service.hyper
+    image: nginx
+    port: 1346
+  - name: resources.service.hyper
+    image: nginx
+    port: 1347
+  - name: mail.service.hyper
+    image: nginx
+    port: 1348

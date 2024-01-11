@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-interface-hyper-service
+spec:
+  selector:
+    app: {{ .Release.Name }}-interface-hyper
+  ports:
+    - name: {{ .Release.Name }}-i-h-s-p
+      port: 33333
+      targetPort: {{ .Release.Name }}-i-h-c-p
+      protocol: TCP

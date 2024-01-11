@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-interface-hyper-deployment
+spec:
+  selector:
+    matchLabels:
+      app: {{ .Release.Name }}-interface-hyper
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: {{ .Release.Name }}-interface-hyper
+    spec:
+      containers:
+        - name: interface-hyper-container
+          image: registry.hyper.mathematikoi.co/interface.hyper
+          envFrom:
+            - configMapRef:
+                name: {{ .Release.Name }}-configmap
+          ports:
+            - containerPort: 1338
+              name: {{ .Release.Name }}-i-h-c-p
+          imagePullPolicy: Always

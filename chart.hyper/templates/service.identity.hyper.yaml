@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-identity-hyper-service
+spec:
+  selector:
+    app.kubernetes.io/name: {{ .Release.Name }}-identity-hyper
+  ports:
+    - name: {{ .Release.Name }}-id-h-s-p
+      port: 80
+      targetPort: {{ .Release.Name }}-id-h-c-p
+      protocol: TCP

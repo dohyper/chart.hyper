@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-application-hyper-service
+spec:
+  selector:
+    app.kubernetes.io/name: {{ .Release.Name }}-application-hyper
+  ports:
+    - name: {{ .Release.Name }}-a-h-s-p
+      port: 80
+      targetPort: {{ .Release.Name }}-a-h-c-p
+      protocol: TCP

@@ -32,4 +32,4 @@ dependencies:
     repository: "https://dohyper.github.io/chart.hyper"
   - name: identity-hyper-chart
     version: 0.1.0
-    repository: "file://../identity-hyper-chart"
+    repository: "https://dohyper.github.io/chart.hyper"

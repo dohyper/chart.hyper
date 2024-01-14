@@ -1,0 +1,6 @@
+configuration:
+  port: 1337
+  # hostname_url:
+
+global:
+  host: hyper.mathematikoi.co

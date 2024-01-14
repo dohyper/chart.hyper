@@ -7,6 +7,6 @@ spec:
     app: {{ .Release.Name }}-interface-hyper
   ports:
     - name: {{ .Release.Name }}-i-h-s-p
-      port: 33333
+      port: 80
       targetPort: {{ .Release.Name }}-i-h-c-p
       protocol: TCP

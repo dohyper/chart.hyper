@@ -1,0 +1,9 @@
+dependencies:
+- name: discovery-hyper-chart
+  repository: file://../discovery-hyper-chart
+  version: 0.1.0
+- name: interface-hyper-chart
+  repository: file://../interface-hyper-chart
+  version: 0.1.0
+digest: sha256:103132a842dc3b5bcea18c9aeffa5a95fcdffaf6f4fd0f53ee2080973db629bd
+generated: "2024-01-14T14:12:51.656254173Z"

@@ -17,8 +17,8 @@ spec:
           image: registry.hyper.mathematikoi.co/discovery.hyper
           envFrom:
             - configMapRef:
-                name: {{ .Release.Name }}-configmap
+                name: {{ .Release.Name }}-discovery-configmap
           ports:
-            - containerPort: 1338
+            - containerPort: {{ .Values.configuration.port }}
               name: {{ .Release.Name }}-d-h-c-p
           imagePullPolicy: Always

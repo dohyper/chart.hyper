@@ -1,0 +1,9 @@
+discovery-hyper-chart:
+  port: 1339
+
+interface-hyper-chart:
+  port: 1338
+  discovery: {}
+
+global:
+  host: hyper.mathematikoi.co

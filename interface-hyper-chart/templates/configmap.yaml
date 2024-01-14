@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-interface-configmap
+data:
+  INTERFACE_HYPER_PORT: {{ .Values.configuration.port | quote }}
+  DISOVERY_HYPER_HOSTNAME: {{ .Values.configuration.discovery.hostname | default (printf "%s-discovery-hyper-service" .Release.Name) }}
+  DISCOVERY_HYPER_PORT: {{ .Values.configuration.discovery.port | default 80 | quote }}
+  DISCOVERY_HYPER_URL: {{ .Values.configuration.discovery.url | default (printf "http://%s-discovery-hyper-service:80" .Release.Name) }}

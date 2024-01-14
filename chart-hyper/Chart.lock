@@ -1,6 +1,6 @@
 dependencies:
 - name: discovery-hyper-chart
-  repository: https://dohyper.github.io/chart.hyper
+  repository: file://../discovery-hyper-chart
   version: 0.1.0
 - name: interface-hyper-chart
   repository: file://../interface-hyper-chart
@@ -8,5 +8,5 @@ dependencies:
 - name: identity-hyper-chart
   repository: file://../identity-hyper-chart
   version: 0.1.0
-digest: sha256:02d90b657370e14d24f1af2424dfeedf6dfc5df1bbc432494d7063b2958d8706
-generated: "2024-01-14T21:30:44.265320133Z"
+digest: sha256:bee2bc629f9cc3252525578129333ce479591ca7e7c753a3a54080e27354cbde
+generated: "2024-01-14T21:35:47.736800634Z"

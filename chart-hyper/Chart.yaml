@@ -26,10 +26,10 @@ appVersion: "1.16.0"
 dependencies:
   - name: discovery-hyper-chart
     version: 0.1.0
-    repository: "https://dohyper.github.io/chart.hyper"
+    repository: "file://../discovery-hyper-chart"
   - name: interface-hyper-chart
     version: 0.1.0
-    repository: "https://dohyper.github.io/chart.hyper"
+    repository: "file://../interface-hyper-chart"
   - name: identity-hyper-chart
     version: 0.1.0
-    repository: "https://dohyper.github.io/chart.hyper"
+    repository: "file://../identity-hyper-chart"

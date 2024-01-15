@@ -1,57 +1,57 @@
 apiVersion: v1
 entries:
   chart-hyper:
-    - apiVersion: v2
-      appVersion: 1.16.0
-      created: "2024-01-14T21:36:11.323718465Z"
-      dependencies:
-        - name: discovery-hyper-chart
-          repository: https://dohyper.github.io/chart.hyper
-          version: 0.1.0
-        - name: interface-hyper-chart
-          repository: https://dohyper.github.io/chart.hyper
-          version: 0.1.0
-        - name: identity-hyper-chart
-          repository: https://dohyper.github.io/chart.hyper
-          version: 0.1.0
-      description: A Helm chart for Kubernetes
-      digest: 3c1b6a456471cf5490b6e9b021f8568503e5f6c8a21954ef23d845f5efe2030a
-      name: chart-hyper
-      type: application
-      urls:
-        - chart-hyper-0.1.0.tgz
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-15T13:12:11.708072967Z"
+    dependencies:
+    - name: discovery-hyper-chart
+      repository: file://../discovery-hyper-chart
       version: 0.1.0
+    - name: interface-hyper-chart
+      repository: file://../interface-hyper-chart
+      version: 0.1.0
+    - name: identity-hyper-chart
+      repository: file://../identity-hyper-chart
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 59d45f089cba71b2c9671a5ed40dbcecbf50bc3c9f3b2114592019a0e1a24727
+    name: chart-hyper
+    type: application
+    urls:
+    - chart-hyper-0.1.0.tgz
+    version: 0.1.0
   discovery-hyper-chart:
-    - apiVersion: v2
-      appVersion: 1.16.0
-      created: "2024-01-14T21:36:11.324181048Z"
-      description: A Helm chart for Kubernetes
-      digest: d8af0fa6210c62ab5864bf9c73f0de0f82f2a1090b197f48164b4eb72ae8084f
-      name: discovery-hyper-chart
-      type: application
-      urls:
-        - discovery-hyper-chart-0.1.0.tgz
-      version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-15T13:12:11.708717967Z"
+    description: A Helm chart for Kubernetes
+    digest: d8af0fa6210c62ab5864bf9c73f0de0f82f2a1090b197f48164b4eb72ae8084f
+    name: discovery-hyper-chart
+    type: application
+    urls:
+    - discovery-hyper-chart-0.1.0.tgz
+    version: 0.1.0
   identity-hyper-chart:
-    - apiVersion: v2
-      appVersion: 1.16.0
-      created: "2024-01-14T21:36:11.324593215Z"
-      description: A Helm chart for Kubernetes
-      digest: 4c89a38d6c2f060fa9637fbccf1879c01535fb2253ab941f12b085e0b638317d
-      name: identity-hyper-chart
-      type: application
-      urls:
-        - identity-hyper-chart-0.1.0.tgz
-      version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-15T13:12:11.709947383Z"
+    description: A Helm chart for Kubernetes
+    digest: 428d5d98cc100a7f3a5062262920808dd0dbd382061e587305162558cc8d6a33
+    name: identity-hyper-chart
+    type: application
+    urls:
+    - identity-hyper-chart-0.1.0.tgz
+    version: 0.1.0
   interface-hyper-chart:
-    - apiVersion: v2
-      appVersion: 1.16.0
-      created: "2024-01-14T21:36:11.324860048Z"
-      description: A Helm chart for Kubernetes
-      digest: b3d3e2eda74a692a078d783b1d7d10f7b267b02ba7539ebf77e7751f28eb133b
-      name: interface-hyper-chart
-      type: application
-      urls:
-        - interface-hyper-chart-0.1.0.tgz
-      version: 0.1.0
-generated: "2024-01-14T21:36:11.322676256Z"
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-15T13:12:11.7104718Z"
+    description: A Helm chart for Kubernetes
+    digest: b3d3e2eda74a692a078d783b1d7d10f7b267b02ba7539ebf77e7751f28eb133b
+    name: interface-hyper-chart
+    type: application
+    urls:
+    - interface-hyper-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-01-15T13:12:11.706883133Z"

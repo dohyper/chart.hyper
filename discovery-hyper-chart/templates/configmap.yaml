@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: {{ .Release.Name }}-discovery-configmap
-data:
-  DISCOVERY_HYPER_PORT: {{ quote .Values.configuration.port }}
-  ADVERTISE_CLIENT_URLS: {{ .Values.configuration.url | default (printf "http://%s-discovery-hyper-service:80" .Release.Name) }}

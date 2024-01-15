@@ -1,9 +1,0 @@
-configuration:
-  port: 1337
-  discovery:
-    # hostname:
-    port: 80
-    # url:
-
-global:
-  host: hyper.mathematikoi.co

@@ -5,3 +5,4 @@ metadata:
 data:
   IDENTITY_HYPER_PORT: {{ .Values.configuration.port | quote }}
   IDENTITY_HYPER_HOSTNAME_URL: {{ .Values.configuration.hostname_url | default (printf "http://identity.%s.%s" .Release.Name .Values.global.host) }}
+  IDENTITY_HYPER_PASSWORD: {{ .Values.configuration.password }}

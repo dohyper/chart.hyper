@@ -2,8 +2,8 @@ name: release helm chart
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - v*
 
 jobs:
   release:

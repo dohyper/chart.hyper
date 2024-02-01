@@ -57,9 +57,9 @@ entries:
   interface-hyper-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-20T17:59:00.723038578Z"
+    created: "2024-02-01T15:19:01.861055857Z"
     description: A Helm chart for Kubernetes
-    digest: 23522bd2ed217d0f8821a1bfdf96b5fabbc9ce71d68aaaf6d2ae066d1114be15
+    digest: 7be5c6a52ee97de864ba1590ba93f81c49e0f3872d15832353735c8a294983bc
     name: interface-hyper-chart
     type: application
     urls:
@@ -76,4 +76,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-01T15:18:45.718435181Z"
+generated: "2024-02-01T15:19:01.86060926Z"

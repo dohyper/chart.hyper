@@ -145,9 +145,9 @@ entries:
   internationalization-hyper-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-02T17:18:48.199475167Z"
+    created: "2024-02-02T17:33:55.060537841Z"
     description: A Helm chart for Kubernetes
-    digest: f374262f72392934216ac8d6e41705118a29c91b00482b3497e2155119fa2571
+    digest: 027e10643731e8b9fae2e2cf9cfcd4a5243b451c553d2749d5822ab915a240f4
     name: internationalization-hyper-chart
     type: application
     urls:
@@ -186,4 +186,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-02T17:32:54.301602396Z"
+generated: "2024-02-02T17:33:55.059989539Z"

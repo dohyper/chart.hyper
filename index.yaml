@@ -123,9 +123,9 @@ entries:
   intelligence-hyper-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-02T22:32:21.645439578Z"
+    created: "2024-02-03T07:55:55.008495957Z"
     description: A Helm chart for Kubernetes
-    digest: 5e9ba260c4a1a7ad2112e3bf46a936bfde2b4c43d1d3a97a9f75c33fbfe363ce
+    digest: 5303929b92c68aff55ab0d7cdce682305395c46065971e41ac33619e12449dc6
     name: intelligence-hyper-chart
     type: application
     urls:
@@ -186,4 +186,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-03T07:55:05.602292475Z"
+generated: "2024-02-03T07:55:55.007868452Z"

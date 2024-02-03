@@ -14,9 +14,9 @@ entries:
   application-hyper-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-03T15:22:07.949027457Z"
+    created: "2024-02-03T16:10:47.120003706Z"
     description: A Helm chart for Kubernetes
-    digest: 417f0ca7fca24f8a1291bee9480181e5d79180941045b7b14e9193dd9612303c
+    digest: 36fff6cff8d53a1318ef6bec9345a40b33bb8bd03a168851040c12c0f8e81e5d
     name: application-hyper-chart
     type: application
     urls:
@@ -186,4 +186,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-03T16:07:11.281979183Z"
+generated: "2024-02-03T16:10:47.119179003Z"

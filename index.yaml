@@ -130,6 +130,16 @@ entries:
   governance-service-hyper:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-02-06T18:49:31.7444005Z"
+    description: A Helm chart for Kubernetes
+    digest: 17faea82e4539698d471274945507786459c2f4728e0c8339621847bb90183ae
+    name: governance-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/governance-service-hyper-v1.0.2.tgz
+    version: v1.0.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-02-06T18:43:53.907511243Z"
     description: A Helm chart for Kubernetes
     digest: 131d57ab9ae53e128917a5d13aa4a4e610c1facacf5d3e376cbf4c6069c5bc48
@@ -246,4 +256,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-06T18:48:18.202574473Z"
+generated: "2024-02-06T18:49:31.743939891Z"

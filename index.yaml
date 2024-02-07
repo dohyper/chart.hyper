@@ -57,6 +57,16 @@ entries:
   authorization-hyper-chart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-02-07T12:37:18.168950644Z"
+    description: A Helm chart for Kubernetes
+    digest: 60d3ebac3dba215d59ce4120cf647c75b405f018ace4cf1c6e88b048200c5f7d
+    name: authorization-hyper-chart
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/authorization-hyper-chart-v1.1.4.tgz
+    version: v1.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-02-07T10:43:51.372223211Z"
     description: A Helm chart for Kubernetes
     digest: 05a1d382e7d550d34a2276280ef4257cf1a4a4a41cd856c4031081c854dd7387
@@ -326,4 +336,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-07T12:34:46.212199992Z"
+generated: "2024-02-07T12:37:18.16850855Z"

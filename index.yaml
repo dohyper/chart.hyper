@@ -139,6 +139,16 @@ entries:
   discovery-hyper-chart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-02-07T12:31:39.443284241Z"
+    description: A Helm chart for Kubernetes
+    digest: 162ec52107955bdc0e895e711ce1687bd4eb46d8df0b07b097925a200682e9bb
+    name: discovery-hyper-chart
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/discovery-hyper-chart-v1.0.3.tgz
+    version: v1.0.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-02-07T12:24:47.216864471Z"
     description: A Helm chart for Kubernetes
     digest: 6a4cf2b8c83d3b648ae34bc8b9cbe39ebc00cd06b09cab2b5c9a54a145923a07
@@ -306,4 +316,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-07T12:27:40.922263333Z"
+generated: "2024-02-07T12:31:39.442508026Z"

@@ -231,6 +231,16 @@ entries:
   identity-hyper-chart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-02-07T13:29:17.919711018Z"
+    description: A Helm chart for Kubernetes
+    digest: 09fec25245ae8ff0ef7bca396c3d7b15bc3bfa49cde5b3aec9cd5a0e8da775b0
+    name: identity-hyper-chart
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/identity-hyper-chart-v1.1.4.tgz
+    version: v1.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-02-07T13:07:29.207200451Z"
     description: A Helm chart for Kubernetes
     digest: 200f40bc4861c5350d33750c12390ceec01a3f7db5172e77aa4ca6c4a4931eb9
@@ -386,4 +396,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-07T13:11:48.60110805Z"
+generated: "2024-02-07T13:29:17.919102508Z"

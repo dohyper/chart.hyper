@@ -507,6 +507,16 @@ entries:
     version: 0.1.0
   presentation-service-hyper:
   - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2024-02-07T16:35:42.458385536Z"
+    description: A Helm chart for Kubernetes
+    digest: dac3ac84ef5bb91c9205cb13c4ad3f0fb715cdd08984175692043b0027d15cf0
+    name: presentation-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/presentation-service-hyper-v1.1.1.tgz
+    version: v1.1.1
+  - apiVersion: v2
     appVersion: 1.1.0
     created: "2024-02-07T16:32:06.209895166Z"
     description: A Helm chart for Kubernetes
@@ -557,4 +567,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-07T16:33:13.452022616Z"
+generated: "2024-02-07T16:35:42.457718439Z"

@@ -636,9 +636,9 @@ entries:
   mail-service-hyper:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-10T21:10:52.910544393Z"
+    created: "2024-02-11T12:12:13.309877904Z"
     description: A Helm chart for Kubernetes
-    digest: 4b6f80ba555b8e998b946b5e9e34273c32a3581af0155fbedbb1134bd74b1ad3
+    digest: 0bf773365a874ddf1027836d780d93216508463b1a7d4255fd0fa5cc029533bb
     name: mail-service-hyper
     type: application
     urls:
@@ -757,4 +757,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-10T21:10:52.909819306Z"
+generated: "2024-02-11T12:12:13.309197288Z"

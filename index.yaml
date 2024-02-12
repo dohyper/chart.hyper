@@ -767,4 +767,15 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-12T11:03:28.311344937Z"
+  widgets-service-hyper:
+  - apiVersion: v2
+    appVersion: 0.0.5
+    created: "2024-02-12T11:06:59.282734128Z"
+    description: A Helm chart for Kubernetes
+    digest: 49001e8ce85547237417e17dc1157cd7a673521684f0aac6aa95cc57937c681b
+    name: widgets-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/widgets-service-hyper-v0.0.5.tgz
+    version: v0.0.5
+generated: "2024-02-12T11:06:59.282300126Z"

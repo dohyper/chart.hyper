@@ -279,6 +279,16 @@ entries:
     version: 0.1.0
   etc-service-hyper:
   - apiVersion: v2
+    appVersion: 0.0.5
+    created: "2024-02-12T13:18:08.148677335Z"
+    description: A Helm chart for Kubernetes
+    digest: a75c250445d1d2c3769f96cbf495e5b13410f4e0f927ef082a0eb5a8ba1703da
+    name: etc-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/etc-service-hyper-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
     appVersion: 0.0.4
     created: "2024-02-12T13:12:36.258662436Z"
     description: A Helm chart for Kubernetes
@@ -799,4 +809,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/widgets-service-hyper-v0.0.5.tgz
     version: v0.0.5
-generated: "2024-02-12T13:12:36.257146324Z"
+generated: "2024-02-12T13:18:08.148106227Z"

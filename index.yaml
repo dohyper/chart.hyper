@@ -969,6 +969,16 @@ entries:
     version: v1.0.5
   redis-redis-discovery-hyper-chart:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2024-03-12T08:41:57.153723658Z"
+    description: A Helm chart for Kubernetes
+    digest: 9e7405c6bb01e814ca782e6f2e21c7bd96c66f56865f9fba72d79b74164fd6df
+    name: redis-redis-discovery-hyper-chart
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/redis-redis-discovery-hyper-chart-v0.1.1.tgz
+    version: v0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2024-03-12T08:36:28.629158537Z"
     description: A Helm chart for Kubernetes
@@ -1060,4 +1070,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/widgets-service-hyper-v0.0.5.tgz
     version: v0.0.5
-generated: "2024-03-12T08:36:28.628189538Z"
+generated: "2024-03-12T08:41:57.152925307Z"

@@ -945,6 +945,16 @@ entries:
     version: 0.1.0
   interface-hyper-chart:
   - apiVersion: v2
+    appVersion: 13.0.1
+    created: "2024-03-18T15:14:05.405651051Z"
+    description: A Helm chart for Kubernetes
+    digest: 64ce428205b468ae48702ec8ba822659357ff6cc4cb3311eb28140a715c80e4a
+    name: interface-hyper-chart
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/interface-hyper-chart-13.0.1.tgz
+    version: 13.0.1
+  - apiVersion: v2
     appVersion: 13.0.0
     created: "2024-03-18T15:13:15.710645863Z"
     description: A Helm chart for Kubernetes
@@ -1381,4 +1391,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/widgets-service-hyper-v0.0.5.tgz
     version: v0.0.5
-generated: "2024-03-18T15:13:15.710209828Z"
+generated: "2024-03-18T15:14:05.405166145Z"

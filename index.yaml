@@ -3,6 +3,16 @@ entries:
   interface-hyper-chart:
   - apiVersion: v2
     appVersion: 0.0.7
+    created: "2024-05-06T06:55:03.774407789Z"
+    description: A Helm chart for Kubernetes
+    digest: a98f28d5d63885954df90cce7a33f27958c0eeaae560709006ce64b17a79e179
+    name: interface-hyper-chart
+    type: application
+    urls:
+    - https://charts.hyper.mathematikoi.agency/interface-hyper-chart-v0.0.9.tgz
+    version: v0.0.9
+  - apiVersion: v2
+    appVersion: 0.0.7
     created: "2024-05-06T06:39:16.156176306Z"
     description: A Helm chart for Kubernetes
     digest: efad347a0b4e1b90eeb295fe0adc9afc692925008dc075f7d249158b72538a87
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/interface-hyper-chart-v0.0.1.tgz
     version: v0.0.1
-generated: "2024-05-06T06:39:16.154948012Z"
+generated: "2024-05-06T06:55:03.773904851Z"

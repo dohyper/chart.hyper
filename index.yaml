@@ -148,6 +148,16 @@ entries:
     version: v0.0.1
   interface-hyper:
   - apiVersion: v2
+    appVersion: 0.0.16
+    created: "2024-05-10T17:05:35.88247974Z"
+    description: A Helm chart for Kubernetes
+    digest: f416efdfc3eb43a7491642fdc090c398725fbac17f08738af0b0ba920080f3eb
+    name: interface-hyper
+    type: application
+    urls:
+    - https://charts.hyper.mathematikoi.agency/interface-hyper-v0.0.16.tgz
+    version: v0.0.16
+  - apiVersion: v2
     appVersion: 0.0.15
     created: "2024-05-10T16:53:00.574957118Z"
     description: A Helm chart for Kubernetes
@@ -290,4 +300,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-v0.0.1.tgz
     version: v0.0.1
-generated: "2024-05-10T17:03:43.527795687Z"
+generated: "2024-05-10T17:05:35.882037515Z"

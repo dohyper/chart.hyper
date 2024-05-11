@@ -471,4 +471,15 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-v0.0.1.tgz
     version: v0.0.1
-generated: "2024-05-11T00:58:07.527276611Z"
+  scheduling-service-hyper:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-05-11T02:31:49.156520746Z"
+    description: A Helm chart for Kubernetes
+    digest: 6b610b854ad92bebb80d3953ae780a6c587ce701ab6c8ba9e65eef6593f63cc3
+    name: scheduling-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/scheduling-service-hyper-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-05-11T02:31:49.15612607Z"

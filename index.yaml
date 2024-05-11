@@ -272,6 +272,16 @@ entries:
     version: v0.0.1
   fuzz-service-hyper:
   - apiVersion: v2
+    appVersion: 0.0.4
+    created: "2024-05-11T05:23:41.105036691Z"
+    description: A Helm chart for Kubernetes
+    digest: d5369eeada6c5060100cd10178f186065c0532068f5e7e4d288f67cd6e3a21bd
+    name: fuzz-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/fuzz-service-hyper-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
     appVersion: 0.0.3
     created: "2024-05-11T05:01:35.476422536Z"
     description: A Helm chart for Kubernetes
@@ -703,4 +713,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-11T05:21:41.439377343Z"
+generated: "2024-05-11T05:23:41.104206674Z"

@@ -62,6 +62,17 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/authorization-hyper-v0.0.1.tgz
     version: v0.0.1
+  commerce-service-hyper:
+  - apiVersion: v2
+    appVersion: 0.0.5
+    created: "2024-05-11T00:45:04.23859583Z"
+    description: A Helm chart for Kubernetes
+    digest: 38f7c94b4b82770c8e470a49963276be28ccfa3ddd051c1a259b6cd171fae17f
+    name: commerce-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/commerce-service-hyper-0.0.5.tgz
+    version: 0.0.5
   discovery-hyper:
   - apiVersion: v2
     appVersion: 0.0.10
@@ -440,4 +451,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/resources-service-hyper-v0.0.1.tgz
     version: v0.0.1
-generated: "2024-05-10T23:05:30.482511488Z"
+generated: "2024-05-11T00:45:04.238236942Z"

@@ -64,6 +64,16 @@ entries:
     version: 0.0.2
   attributes-service-hyper:
   - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2024-05-11T03:43:21.590796029Z"
+    description: A Helm chart for Kubernetes
+    digest: 3c717067e6970de9ea16686a62a675fb332bef806ac31b763de7dc1f7598e7eb
+    name: attributes-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/attributes-service-hyper-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     appVersion: 0.0.2
     created: "2024-05-11T03:39:46.465031794Z"
     description: A Helm chart for Kubernetes
@@ -569,4 +579,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-11T03:40:45.771969525Z"
+generated: "2024-05-11T03:43:21.590389292Z"

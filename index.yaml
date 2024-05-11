@@ -105,6 +105,17 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/automation-service-hyper-v0.0.2.tgz
     version: v0.0.2
+  chat-service-hyper:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-05-11T04:13:32.124660645Z"
+    description: A Helm chart for Kubernetes
+    digest: 391c65e7e559ceff393eef68a4b3e513e184246fb85d834508703bb50493760b
+    name: chat-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/chat-service-hyper-0.0.1.tgz
+    version: 0.0.1
   commerce-service-hyper:
   - apiVersion: v2
     appVersion: 0.0.7
@@ -642,4 +653,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-11T04:12:41.443570078Z"
+generated: "2024-05-11T04:13:32.12427884Z"

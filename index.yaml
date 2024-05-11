@@ -312,6 +312,17 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/identity-hyper-v0.0.1.tgz
     version: v0.0.1
+  infrastructure-service-hyper:
+  - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2024-05-11T04:12:41.444273343Z"
+    description: A Helm chart for Kubernetes
+    digest: 1e3d2d69eacffcb31d5605ac9c6537844bba9c0e19c4d986cf262bd0af691683
+    name: infrastructure-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/infrastructure-service-hyper-0.0.3.tgz
+    version: 0.0.3
   intelligence-hyper:
   - apiVersion: v2
     appVersion: 0.0.1
@@ -631,4 +642,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-11T04:00:51.876612212Z"
+generated: "2024-05-11T04:12:41.443570078Z"

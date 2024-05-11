@@ -454,6 +454,17 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/location-service-hyper-0.0.2.tgz
     version: 0.0.2
+  objects-service-hyper:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-05-11T03:40:45.772425436Z"
+    description: A Helm chart for Kubernetes
+    digest: aa368d4e7dd3da2ae0c75294b3a023a4de5f595ea469e37001dc4e2e07d121f4
+    name: objects-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/objects-service-hyper-v0.0.1.tgz
+    version: v0.0.1
   presentation-service-hyper:
   - apiVersion: v2
     appVersion: 0.0.5
@@ -558,4 +569,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-11T03:39:46.464694388Z"
+generated: "2024-05-11T03:40:45.771969525Z"

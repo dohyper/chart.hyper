@@ -514,4 +514,15 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/scheduling-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-11T03:10:23.535407869Z"
+  transactions-service-hyper:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-05-11T03:11:17.993621211Z"
+    description: A Helm chart for Kubernetes
+    digest: 848704d4a5283a1f72c19cf4d95e0e31a473bcf53160cb9535439f4876501c11
+    name: transactions-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-05-11T03:11:17.99219249Z"

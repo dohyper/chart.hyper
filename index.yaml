@@ -138,6 +138,16 @@ entries:
     version: 0.0.1
   commerce-service-hyper:
   - apiVersion: v2
+    appVersion: 0.0.8
+    created: "2024-05-12T19:06:19.999061405Z"
+    description: A Helm chart for Kubernetes
+    digest: 10d7c2bcfa35fc51dc3f8becfbceff47f484ea3548f98600ad3cd9d9c224eb17
+    name: commerce-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/commerce-service-hyper-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
     appVersion: 0.0.7
     created: "2024-05-11T00:58:07.527684052Z"
     description: A Helm chart for Kubernetes
@@ -784,4 +794,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-12T18:57:18.569661983Z"
+generated: "2024-05-12T19:06:19.998668207Z"

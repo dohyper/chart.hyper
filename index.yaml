@@ -589,6 +589,16 @@ entries:
     version: v0.0.1
   internationalization-hyper:
   - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2024-05-12T18:49:01.733825419Z"
+    description: A Helm chart for Kubernetes
+    digest: 5274b843a2a624f274c3e6f025a7dfa03392011bfc3c2a74481a10624d6fd226
+    name: internationalization-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/internationalization-hyper-v0.0.2.tgz
+    version: v0.0.2
+  - apiVersion: v2
     appVersion: 0.0.1
     created: "2024-05-12T18:45:31.492095143Z"
     description: A Helm chart for Kubernetes
@@ -764,4 +774,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-12T18:45:31.49172919Z"
+generated: "2024-05-12T18:49:01.733448717Z"

@@ -917,6 +917,17 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/shell-application-hyper-v0.0.3.tgz
     version: v0.0.3
+  table-presentation-service-hyper:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-06-02T12:20:41.673622206Z"
+    description: A Helm chart for Kubernetes
+    digest: 5fd43773c2729e4bf06bc3f1b671e6810d54b283493b9ff3ce7b451952df1ca2
+    name: table-presentation-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/table-presentation-service-hyper-v0.0.1.tgz
+    version: v0.0.1
   transactions-service-hyper:
   - apiVersion: v2
     appVersion: 0.0.1
@@ -928,4 +939,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-06-02T12:02:55.985643409Z"
+generated: "2024-06-02T12:20:41.6729093Z"

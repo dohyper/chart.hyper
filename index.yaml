@@ -179,6 +179,16 @@ entries:
     version: 0.0.5
   composer-application-hyper:
   - apiVersion: v2
+    appVersion: 0.0.8
+    created: "2024-06-02T16:55:52.366266245Z"
+    description: A Helm chart for Kubernetes
+    digest: a637826affa9955548393d84092793d5ae1fb68a898ec82a3faa1f8f1b85c2b7
+    name: composer-application-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/composer-application-hyper-v0.0.8.tgz
+    version: v0.0.8
+  - apiVersion: v2
     appVersion: 0.0.7
     created: "2024-06-02T16:47:25.225377395Z"
     description: A Helm chart for Kubernetes
@@ -989,4 +999,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-06-02T16:47:25.225000965Z"
+generated: "2024-06-02T16:55:52.365900201Z"

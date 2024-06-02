@@ -814,6 +814,17 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/scheduling-service-hyper-0.0.1.tgz
     version: 0.0.1
+  shell-application-hyper:
+  - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2024-06-02T08:52:32.122465124Z"
+    description: A Helm chart for Kubernetes
+    digest: 60fa216f314bb18fdcda51cb2cfee17e8d81c8d8b3ce0e3d1f9887a2cf358f3f
+    name: shell-application-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/shell-application-hyper-v0.0.3.tgz
+    version: v0.0.3
   transactions-service-hyper:
   - apiVersion: v2
     appVersion: 0.0.1
@@ -825,4 +836,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-06-02T08:40:32.695739193Z"
+generated: "2024-06-02T08:52:32.121974545Z"

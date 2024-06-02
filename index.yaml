@@ -816,6 +816,16 @@ entries:
     version: 0.0.1
   shell-application-hyper:
   - apiVersion: v2
+    appVersion: 0.0.7
+    created: "2024-06-02T08:59:39.962664846Z"
+    description: A Helm chart for Kubernetes
+    digest: 44d96985593d92e1dcb377f057d1d78e7b012785095bf55fe8a562e9c75b107e
+    name: shell-application-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/shell-application-hyper-v0.0.7.tgz
+    version: v0.0.7
+  - apiVersion: v2
     appVersion: 0.0.6
     created: "2024-06-02T08:57:45.605353739Z"
     description: A Helm chart for Kubernetes
@@ -866,4 +876,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-06-02T08:57:45.604930141Z"
+generated: "2024-06-02T08:59:39.962277168Z"

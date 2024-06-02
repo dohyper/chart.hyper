@@ -177,6 +177,17 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/commerce-service-hyper-0.0.5.tgz
     version: 0.0.5
+  composer-application-hyper:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-06-02T05:30:49.621949009Z"
+    description: A Helm chart for Kubernetes
+    digest: d593dca93a213c2924a0d11ba555af930dc3992f24e2fc29569ba0fbd7f1389a
+    name: composer-application-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/composer-application-hyper-v0.0.1.tgz
+    version: v0.0.1
   discovery-hyper:
   - apiVersion: v2
     appVersion: 0.0.10
@@ -804,4 +815,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-18T20:32:13.422696593Z"
+generated: "2024-06-02T05:30:49.621614824Z"

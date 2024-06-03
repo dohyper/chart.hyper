@@ -280,6 +280,16 @@ entries:
     version: v0.0.1
   dashboard-presentation-service-hyper:
   - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2024-06-03T21:46:29.4622637Z"
+    description: A Helm chart for Kubernetes
+    digest: b7aa3107b7a8956ca5e794c4807f74cc12a0ce119ab3205e43a00ce8893767b7
+    name: dashboard-presentation-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/dashboard-presentation-service-hyper-v0.0.2.tgz
+    version: v0.0.2
+  - apiVersion: v2
     appVersion: 0.0.1
     created: "2024-06-02T11:46:48.397889888Z"
     description: A Helm chart for Kubernetes
@@ -1049,4 +1059,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-06-03T21:44:00.617062901Z"
+generated: "2024-06-03T21:46:29.46187813Z"

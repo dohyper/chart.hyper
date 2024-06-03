@@ -753,6 +753,16 @@ entries:
     version: 0.0.2
   modules-presentation-service-hyper:
   - apiVersion: v2
+    appVersion: 0.0.5
+    created: "2024-06-03T21:43:32.422025988Z"
+    description: A Helm chart for Kubernetes
+    digest: f2f0a4ccd00f83f2a93b79e022f386e4bd4efd0f120c2fb2ae952f4a7a3fb326
+    name: modules-presentation-service-hyper
+    type: application
+    urls:
+    - https://dohyper.github.io/chart.hyper/modules-presentation-service-hyper-v0.0.5.tgz
+    version: v0.0.5
+  - apiVersion: v2
     appVersion: 0.0.3
     created: "2024-06-02T12:02:55.986595645Z"
     description: A Helm chart for Kubernetes
@@ -1029,4 +1039,4 @@ entries:
     urls:
     - https://dohyper.github.io/chart.hyper/transactions-service-hyper-0.0.1.tgz
     version: 0.0.1
-generated: "2024-06-03T19:23:30.456571832Z"
+generated: "2024-06-03T21:43:32.421620234Z"
